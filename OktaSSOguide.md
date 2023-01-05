@@ -1,11 +1,12 @@
 # How to set up SSO using Okta
 
 Upon logging in to the **Okta Admin Portal** account, this is how it looks like.
+![Getting Started](/Resources/Images/gettingstarted.png "Getting Started")
 
-
-1. Go to **Directory** > **People** to add users to the IdP.
-
+1. Go to **Directory** > **People** to add users to the **IdP**.
+![Assignments](/Resources/Images/assignments.png "Assignments")
 2. Go to **Applications** > **Applications** and select **Create App Integration**.
+![Applications](/Resources/Images/applications.png)
 
 3. Select **SAML 2.0** and hit **Next**.
 
