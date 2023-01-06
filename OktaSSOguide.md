@@ -2,20 +2,24 @@
 
 ## Okta Admin Portal Setup
 Upon logging in to the **Okta Admin Portal** account, this is how it looks like.
+	<br />
 ![Getting Started](/Resources/Images/gettingstarted.png "Getting Started")
 
 1. Go to **Directory** > **People** to add users to the **IdP**.
+   <br />
 ![Assignments](/Resources/Images/assignments.png "Assignments")
 
-2. Go to **Applications** > **Applications** and select **Create App Integration**.
+1. Go to **Applications** > **Applications** and select **Create App Integration**.
+   <br />
 ![Integration](/Resources/Images/integration.png "Create App Integration")
 
-3. Select **SAML 2.0** and hit **Next**.
+1. Select **SAML 2.0** and hit **Next**.
+	<br />
 ![SAML](/Resources/Images/saml2.0.png "SAML 2.0")
 
-4. Choose an **App name**. In this case, I chose MadCap Central. 
+1. Choose an **App name**. In this case, I chose MadCap Central. 
    
-5. Hit **Next**.
+2. Hit **Next**.
 
 	For **Single Sign On URL**, set this to the **URL** of the **login page**.
 
@@ -35,7 +39,7 @@ Upon logging in to the **Okta Admin Portal** account, this is how it looks like.
 	- **Application username** is set to '**Okta username**'.
 
 	- **Update application username on** is set to '**Create and update**'.
-  
+	<br />
 	![Endpoints](/Resources/Images/endpoint.png "Endpoints")
 
 6. Click '**Show Advanced Settings**'.
@@ -57,8 +61,10 @@ Upon logging in to the **Okta Admin Portal** account, this is how it looks like.
 			https://[vanity].mcoutput.com/api/users/SamlLoginSucceeded	
 	
 	> :bulb: **Tip:** Make sure the **Index** values are different for **each** entry.
+	<br />
 
 	![Advanced Options](/Resources/Images/advancedoptions.png "Advanced Options")
+
 7. We keep the rest of the values here to its **default values**. Then, hit **Next**.
 
    - Regarding the "**Are you a customer or partner?**" question, it does not matter what the user's answer is. After selecting an answer, hit **Finish**.
@@ -74,19 +80,22 @@ We will then need to connect this Application to their **MadCap Central License*
 1. Go to [MadCap Central Portal](portal.madcapcentral.com "MadCap Central").
 2. On the top-right hand side, select the **License Icon**.
 3. Select **License Settings**.
+   <br />
    ![License Settings](/Resources/Images/cen_licensesettings.png "License Settings")
 4. Select **Single Sign-on `[Beta]`**.
 5. Select **Change Settings**.
    
 6. Check **Enable SSO for Central login** option.
+   <br />
    ![SSO Setup](/Resources/Images/sso_setup.png "SSO Setup")
 7. We then set the values for **SAML 2.0 Login Endpoint (HTTP)**, **Identity Provider Issuer** and **Public Certificate** information.
    - The information that we need to input to the next fields can be found in **Okta Portal** > **Applications** > **Applications** > **Sign On** tab > **View SAML setup instructions**
+  	<br />
 		![SAML Instructions](/Resources/Images/samlinstructions.png "SAML Instructions")
-<br />
-<br />
+	<br />
+	<br />
 	We should see this page here:
-
+	<br />
 		![SAML Information](/Resources/Images/samlinfo.png "SAML Information")
 
 	We then use these information to fill out the fields in Central portal.
@@ -98,9 +107,8 @@ We will then need to connect this Application to their **MadCap Central License*
   
    - Set **Identity Provider Issuer** to **Identity Provider Issuer**
    - Set **Public Certificate** to **X.509 Certificate**
-<br />
-<br />
-
+	<br />
+	<br />
 	![SAML Information](/Resources/Images/xrefsamlinfo.png "SAML Information")
 
 
