@@ -3,7 +3,7 @@
 ## Okta Admin Portal Setup
 Upon logging in to the **Okta Admin Portal** account, this is how it looks like.
 
-	<br />
+<br />
 
 ![Getting Started](/Resources/Images/gettingstarted.png "Getting Started")
 
