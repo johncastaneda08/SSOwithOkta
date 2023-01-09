@@ -2,11 +2,16 @@
 
 ## Okta Admin Portal Setup
 Upon logging in to the **Okta Admin Portal** account, this is how it looks like.
+
 	<br />
+
 ![Getting Started](/Resources/Images/gettingstarted.png "Getting Started")
 
 1. Go to **Directory** > **People** to add users to the **IdP**.
+
+> :bulb: **Tip:** Make sure to add **Users** or **Groups** to the **Application** through **Assignments**.
    <br />
+
 ![Assignments](/Resources/Images/assignments.png "Assignments")
 
 1. Go to **Applications** > **Applications** and select **Create App Integration**.
