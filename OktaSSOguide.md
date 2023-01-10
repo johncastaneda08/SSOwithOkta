@@ -96,11 +96,13 @@ We will then need to connect this Application to their **MadCap Central License*
 7. We then set the values for **SAML 2.0 Login Endpoint (HTTP)**, **Identity Provider Issuer** and **Public Certificate** information.
    - The information that we need to input to the next fields can be found in **Okta Portal** > **Applications** > **Applications** > **Sign On** tab > **View SAML setup instructions**
   	<br />
+
 	![SAML Instructions](/Resources/Images/samlinstructions.png "SAML Instructions")
 	<br />
 	<br />
 	We should see this page here:
 	<br />
+	
 	![SAML Information](/Resources/Images/samlinfo.png "SAML Information")
 
 	We then use these information to fill out the fields in Central portal.
